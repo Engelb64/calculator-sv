@@ -189,10 +189,12 @@ input {
   background-color: #1d2127;
   color: #ffffff;
   border-radius: 10px;
+  text-align: center;
 }
 
 input::placeholder {
   color: #ffffff;
+  text-align: center;
 }
 
 button {
