@@ -112,8 +112,7 @@
           this.values = this.values + ',' + this.op3
         }
 
-        if (!isNaN(this.op1) && !isNaN(this.op2) || !isNaN(this.op1) && !isNaN(this.op2) && !isNaN(this.op3)) {
-          console.log('numeric');
+        if (!isNaN(this.op1) && !isNaN(this.op2) && this.op3 == '' || !isNaN(this.op1) && !isNaN(this.op2) && !isNaN(this.op3)) {
           this.result = parseFloat(this.op1) + parseFloat(this.op2);
 
           if (parseFloat(this.op3)) {
